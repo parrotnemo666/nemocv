@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>深度學習研究計畫申請書 - 賴均易</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            animation: fadeIn 0.6s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .section-title {
+            color: #1e88e5;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #1e88e5;
+            font-weight: 600;
+        }
+
+        .subsection-title {
+            color: #1565c0;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+            font-weight: 600;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #42a5f5 0%, #1565c0 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+        }
+
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            background: #1e88e5;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.6em;
+            }
+            
+            .content {
+                padding: 25px;
+            }
+            
+            .section-title {
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>深度學習研究計畫申請書</h1>
+            <p>賴均易 (Nemo) | Java 後端工程師</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2 class="section-title">一、個人簡介和申請動機</h2>
+                
+                <h3 class="subsection-title">個人簡介</h3>
+                <p>我是<span class="highlight">賴均易(Nemo)</span>,具備3年Java後端開發經驗的軟體工程師。2023年完成資策會Java軟體工程師就業養成班576小時專業訓練後,投入軟體開發領域。</p>
+                
+                <p>職涯初期於<strong>聯邦銀行系統資訊部</strong>擔任Java後端API工程師,負責設計並開發銀行RESTful API、實作交易通知與錯誤追蹤系統(LineNotify郵件通知),並建立多層式資料安全架構,包含JWT身份驗證、RSA/AES加解密機制與SSL憑證管理。透過自動化測試與程式碼優化,成功提升系統問題處理效率與程式品質30%。</p>
+                
+                <p>目前任職於<strong>華厚科技S1軟體事業部</strong>,專注於AI客服系統後端開發。主要負責價管AI與客服AI系統的功能實作,包含永久音檔設定、確認機制整合與RESTful API設計。同時參與NAS音檔分流系統開發(實作音檔轉檔與分流邏輯、優化系統效能)及客服告警AI的流程設計與需求實作。工作中注重程式碼品質,執行code review、單元測試與整合測試,並撰寫完整的系統文件,確保專案順利交付。</p>
+                
+                <div style="margin: 20px 0;">
+                    <span class="badge">Java 後端開發</span>
+                    <span class="badge">RESTful API</span>
+                    <span class="badge">系統整合</span>
+                    <span class="badge">資料安全</span>
+                    <span class="badge">自動化測試</span>
+                    <span class="badge">敏捷開發</span>
+                </div>
+
+                <h3 class="subsection-title">申請動機</h3>
+                <p>我目前已經擔任軟體工程師快要兩年了,這兩年成長了很多,也接觸到許多相關技術。不過,雖然工作中天天都在使用 AI,但對於它的原理和細節了解相對不足。因此我希望能透過學習,增進自己對 AI 的理解,搞懂它具體是如何實作的,並思考是否能應用到實際的場景之中。</p>
+                
+                <p>我對深度學習的興趣最初來自於對人工智慧在日常生活應用的好奇。透過不斷接觸相關的課程與資源,我逐漸意識到這不僅是一個技術領域,更是一個能夠解決實際問題、改善人類生活的重要工具。這樣的體悟讓我更加確信自己希望朝深度學習的方向深入研究與發展。</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">二、職業背景與轉職經歷</h2>
+                <p>我曾在聯邦銀行工作過一年,之後來到華厚又擔任後端 Java 工程師大約九個月,主要負責銀行相關的後端業務。我大學畢業的科系是<strong>食品科學</strong>。</p>
+                
+                <p>會選擇轉職,是因為當初打工時曾在一家名為 AI LAM 的公司擔任攝影,那時候接觸到 AI,發現它能解決很多問題,且適應能力很強。也因此對 AI 產生了興趣,並進一步發現自己很喜歡寫程式,最後順理成章地成為後端工程師。</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">三、學習時間安排</h2>
+                <p>我已經參考過兩位學姊的直播分享,目前的安排大致是平日至少四天投入在深度學習與線性代數等基礎知識上。我認為這類知識需要長期累積與深入理解,必須和它長時間相處才能真正掌握。假日的話,週六日會挑一天專注學習,另一日則安排休息為主。另外,會規劃一日用於與同學或同儕交流,因為有時候遇到瓶頸或停滯太久會感到不舒服,而交流能讓問題更快找到解決方案。</p>
+                
+                <p>在學習安排上,我會每週固定規劃時間投入相關知識的學習,並採用<strong>「任務分解」</strong>的方式,將複雜的主題拆解成小單元,逐步理解與消化。具體的時間規劃如下:</p>
+                
+                <ul>
+                    <li><strong>週日晚上:</strong> 回到家後約 18:00 以後,準備隔天線上會議的相關資料與討論內容</li>
+                    <li><strong>週一:</strong> 參加線上會議後,檢視學習成果,確認前一週的進度並調整本週計畫</li>
+                    <li><strong>週二:</strong> 因有運動安排(打球),主要以休息與身體調整為主</li>
+                    <li><strong>週三:</strong> 安排任務分配,並用 AI 開始輔助我學習當我的助教</li>
+                    <li><strong>週四、週五:</strong> 下班後投入約 3 小時專心學習線性代數與相關知識。午休時間若有 90 分鐘空檔,也會抽出約 20 分鐘回顧前次學習內容</li>
+                    <li><strong>週五:</strong> 與小組或同學進行小型回饋會,分享當週學習成果</li>
+                    <li><strong>週六:</strong> 以休息為主,視狀況調整學習時間約 3 小時</li>
+                    <li><strong>週日:</strong> 安排較長時間(約 5~6 小時)進行知識複習與整合</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">四、負面情緒處理經驗</h2>
+                <p>我曾經在一個資策會專案的尾聲,因為進度過快而感到自己專案做不完,能力跟不上,導致情緒陷入低谷。</p>
+                
+                <p>當時的解決方式,首先是和隊長交流,坦承自己進度較慢或成果不佳,並詢問是否有資源能協助。如果資源有限,我就會嘗試把任務拆解並量化,先完成核心必要的部分,讓專案能以<strong>「最小可行方案」</strong>運作起來,再逐步添加額外的美化或強化功能。這樣的做法讓我能逐漸從負面情緒中走出來,並確保專案能持續推進。</p>
+                
+                <p>在過去的學習與工作過程中,我難免會遇到挫折與自我懷疑。當情緒低落時,我會透過書寫、運動或與他人交流來整理思緒,讓自己重新找回專注力。這些經驗幫助我培養了在長期挑戰中保持穩定心態的能力,也讓我更能體會持之以恆的重要性。</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">五、期望解決的問題</h2>
+                <p>我最想透過自己開發的深度學習模型解決一些在工作中和日常業務中遇到的問題。比如,在公司內部已有的功能之一,是判斷通話錄音中的情緒好壞。我認為還能進一步應用到其他場景,例如:</p>
+                
+                <ul>
+                    <li>設備故障的預警(透過鏡頭)</li>
+                    <li>無人值守系統的監控</li>
+                    <li>人流自動統計</li>
+                    <li>文件的分類與整理</li>
+                </ul>
+                
+                <p>這些問題往往瑣碎花費時間巨大且難以用傳統程式方法標準化處理,但若能透過模型來解決,就能帶來很大的價值。</p>
+                
+                <p>我也希望未來能將深度學習應用於<strong>自然語言處理與人機互動領域</strong>,特別是教育與輔助學習的相關應用。例如,打造能夠依照使用者需求動態調整學習內容的智慧導師,幫助不同背景的學習者更有效率地掌握新知識。</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">六、為何要學習基礎模型?</h2>
+                <p>即使無法達到 OpenAI 的程度,我仍認為學習基礎模型非常重要。</p>
+                
+                <h3 class="subsection-title">本地端與遠端的需求本來就不同</h3>
+                <p>OpenAI 作為商業公司,擁有龐大的資金與人力資源,我們個人或一般團隊很難達到同樣的層級。但其實我們也不需要做到那個程度,因為本地端與遠端的需求本來就不同。以銀行系統為例,若涉及重要的客戶資料,就不可能傳到遠端進行處理,因為會有資安風險,也可能受到金管會的限制。在這種情況下,本地端運行的模型雖然不一定比 OpenAI 更強大,但卻能提供安全性並解決業務需求,這就是它存在的價值。</p>
+                
+                <h3 class="subsection-title">從底層開始建構</h3>
+                <p>基礎模型的學習就像建造一座金字塔,必須從最底層的架構與核心原理開始理解,才能進一步進行微調與最佳化。透過這樣的學習,我們能知道哪些參數需要調整,如何讓模型變成符合自己需求的樣子。這不僅是技術層面的收穫,也是軟體工程師的核心價值之一——理解底層原理,並將其為己所用。</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">七、準備與努力</h2>
+                <p>這是我第一次申請該計畫,因此在決定參與之前,我也持續做了一些準備與努力。</p>
+                
+                <p>過去我已經將所有與深度學習相關的直播幾乎都看過,並且從兩位學姊的分享中獲得許多啟發。此外,我也透過 YouTube 的線性代數教材以及相關書籍,嘗試補足數學基礎。由於我已經有四、五年沒有正式接觸數學,因此在準備過程中,我會利用 AI 工具協助學習,每週大約安排兩到三天,循序漸進地練習題目,並透過 AI 的引導一步步理解線性代數的核心概念,以及它與深度學習之間的連結。</p>
+                
+                <p>因為我其實比較喜歡跟有確切相關的東西結合在一起學習,所以透過這種方式讓我能更有效率地學習,並確保自己在後續的課程中能有更好的理解與跟進能力。</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">八、結語</h2>
+                
+                <h3 class="subsection-title">關於感謝與機會</h3>
+                <p>坦白說,我非常感謝老師能夠開設這樣的課程。因為在台灣幾乎很難找到類似的學習資源,許多人建議的途徑大多是進入研究所,但這個計畫讓我有機會以更實際的方式理解每天都在使用的 AI 概念,這對我來說是一個非常珍貴的機會。</p>
+                
+                <h3 class="subsection-title">關於過去經歷與態度</h3>
+                <p>另外,我曾經經營過兩年半的生意,因此對於未來的挑戰與不確定性,我始終保持開放與樂觀的態度。我認為挑戰和挫折其實正是進步的起點。在資策會受訓的六個月裡,即使我最初幾乎沒有寫過幾天程式,但仍然憑著這種態度撐過來,並完成了學習轉職的過程。</p>
+                
+                <h3 class="subsection-title">關於自我挑戰與持續精進</h3>
+                <p>對我而言,學習深度學習不僅是一個專業選擇,更是一場自我挑戰。我深知這條路徑需要長時間的累積與堅持,因此我會持續透過閱讀最新論文、參與技術社群以及實作專案來保持自己的敏銳度。透過這樣的方式,我期許自己不斷突破現有的限制,並在研究中找到新的可能性。</p>
+                
+                <h3 class="subsection-title">關於未來的期待</h3>
+                <p>未來,我希望能加入這樣的學習社群,不僅在學習與討論中成長,我非常喜歡團隊合作,相信知識的交流能產生更大的價值。在過去的專案經驗中,我常透過討論與分享來激盪新的想法,也期許自己有一天能站在 YouTube 的直播分享中,和學弟妹們交流我自己的專案與心得。我相信這將是一個很寶貴的經驗,也是我嚮往的生活方式。我希望能藉由這樣的機會不斷精進自己,並持續回饋給這個社群。</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>感謝您閱讀我的申請書</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">© 2025 賴均易 (Nemo)</p>
+        </div>
+    </div>
+</body>
+</html>
